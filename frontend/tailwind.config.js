@@ -8,41 +8,45 @@ export default {
   theme: {
     extend: {
       colors: {
+        navy: {
+          DEFAULT: "#122A4E",
+          deep: "#0B1626",
+          hover: "#2E75B6",
+        },
+        steel: {
+          DEFAULT: "#2E75B6",
+          light: "#4A90E2",
+        },
+        saffron: {
+          DEFAULT: "#E08A2C",
+          hover: "#C97720",
+          light: "#F5A623",
+        },
         background: "var(--background)",
         foreground: "var(--foreground)",
         primary: {
           DEFAULT: "var(--primary)",
-          foreground: "var(--primary-foreground)",
+          hover: "var(--primary-hover)",
         },
-        secondary: {
-          DEFAULT: "var(--secondary)",
-        },
-        success: "var(--success)",
-        warning: "var(--warning)",
-        danger: "var(--danger)",
-        muted: {
-          DEFAULT: "var(--muted)",
-          foreground: "var(--muted-foreground)",
-        },
-        ink: {
-          DEFAULT: "var(--ink)",
-          soft: "var(--ink-soft)",
-        },
-        frame: "var(--frame)",
         accent: {
           DEFAULT: "var(--accent)",
-          foreground: "var(--accent-foreground)",
         },
-        cta: "var(--cta)",
-        track: "var(--track)",
+        card: {
+          DEFAULT: "var(--card)",
+          foreground: "var(--card-foreground)",
+        },
+        success: "#2E7D32",
+        warning: "#C55A11",
+        danger: "#C0392B",
+      },
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+        heading: ["Manrope", "Inter", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
-      },
-      fontFamily: {
-        sans: ["Inter", "sans-serif"],
       },
     },
   },

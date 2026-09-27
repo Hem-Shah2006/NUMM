@@ -4,45 +4,46 @@
 
 @layer base {
   :root {
-    --background: #F7F9FC; /* Light mode */
-    --foreground: #020C21;
-    --primary: #1F3864; 
-    --primary-foreground: #FFFFFF;
-    --secondary: #2E75B6;
-    --success: #2E7D32;
-    --warning: #C55A11;
-    --danger: #C0392B;
-    --muted: #59627E;
-    --muted-foreground: #FFFFFF;
+    /* Bharat Tech Theme Tokens */
+    --primary: #122A4E;        /* Deep navy */
+    --primary-hover: #2E75B6;  /* Steel blue */
+    --accent: #E08A2C;         /* Saffron / amber */
     
-    /* ConSentinel specific */
-    --ink: #020C21;
-    --ink-soft: #0F182F;
-    --muted2: #4D5B77;
-    --frame: #E6EDF6;
-    --cta: #0F1B31;
-    --cta-knob: #384B64;
-    --meet-knob: #1A2B45;
-    --accent: #4A78B0;
-    --accent-foreground: #FFFFFF;
-    --track: #DDE4EE;
+    --success: #2E7D32;        /* Forest green */
+    --warning: #C55A11;        /* Burnt orange */
+    --danger: #C0392B;         /* Crimson red */
+
+    --background: #F7F9FC;     /* Light background */
+    --foreground: #1A1F2B;     /* Light primary text */
+
+    --card: #FFFFFF;           /* Card surface light */
+    --card-foreground: #1A1F2B;
+
+    --muted: #64748B;
+    --muted-foreground: #475569;
+    --border: #E2E8F0;
 
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: #0F172A; /* Dark mode */
-    --foreground: #FFFFFF;
-    --primary: #2E75B6;
-    --primary-foreground: #FFFFFF;
-    --secondary: #1F3864;
-    
-    --ink: #FFFFFF;
-    --ink-soft: #E2E8F0;
+    --primary: #122A4E;        /* Deep navy */
+    --primary-hover: #2E75B6;  /* Steel blue */
+    --accent: #E08A2C;         /* Saffron / amber */
+
+    --success: #2E7D32;
+    --warning: #C55A11;
+    --danger: #C0392B;
+
+    --background: #0B1626;     /* Dark background */
+    --foreground: #E8EDF5;     /* Dark primary text */
+
+    --card: #132238;           /* Card surface dark */
+    --card-foreground: #E8EDF5;
+
     --muted: #94A3B8;
-    --muted-foreground: #020C21;
-    --muted2: #CBD5E1;
-    --frame: #0F172A;
+    --muted-foreground: #CBD5E1;
+    --border: #1E293B;
   }
 }
 
@@ -50,24 +51,56 @@
   * {
     @apply border-gray-200 dark:border-gray-800;
   }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
   body {
     @apply bg-background text-foreground;
     font-family: 'Inter', system-ui, sans-serif;
     font-synthesis: none;
     -webkit-font-smoothing: antialiased;
     text-rendering: geometricPrecision;
+    font-size: 16px;
   }
-  
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Manrope', 'Inter', sans-serif;
+    letter-spacing: -0.025em;
+  }
+
   .tabular-nums {
     font-variant-numeric: tabular-nums;
   }
+}
 
-  /* Glassmorphism utility classes */
-  .glass-panel {
-    @apply bg-white/40 dark:bg-black/40 backdrop-blur-[40px] border border-white/60 dark:border-white/20 shadow-lg;
-  }
-  
-  .glass-pill {
-    @apply bg-white/80 dark:bg-black/60 backdrop-blur-[40px] border border-white/80 dark:border-white/20 shadow-md rounded-full;
-  }
+/* Custom Keyframe Animations for Hero Mesh & Drifting Glows */
+@keyframes meshPulse {
+  0%, 100% { opacity: 0.04; transform: scale(1); }
+  50% { opacity: 0.07; transform: scale(1.02); }
+}
+
+@keyframes floatGlow1 {
+  0%, 100% { transform: translate(0px, 0px); }
+  50% { transform: translate(30px, -20px); }
+}
+
+@keyframes floatGlow2 {
+  0%, 100% { transform: translate(0px, 0px); }
+  50% { transform: translate(-25px, 25px); }
+}
+
+.animate-mesh {
+  animation: meshPulse 8s ease-in-out infinite;
+}
+
+.animate-glow-1 {
+  animation: floatGlow1 12s ease-in-out infinite;
+}
+
+.animate-glow-2 {
+  animation: floatGlow2 14s ease-in-out infinite;
 }
