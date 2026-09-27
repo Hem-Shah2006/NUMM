@@ -1,0 +1,24 @@
+material_code,description,specification,uom,category,plant
+CIL-INV-00012,CABLE CTRL 4CX2.5SQMM,"4 Core x 2.5 sq.mm, Copper conductor, 1.1kV, PVC insulated, IS 1554",Meter,Cables,CIL Plant-1
+CIL-INV-00018,MOTOR INDUCTION 15KW 4-POLE,"15kW, 4-Pole, 415V, 3-Phase, IE3, TEFC enclosure",Each,Motors,CIL Plant-2
+CIL-INV-00007,VALVE GATE 6 INCH CAST STEEL,"6"" (150mm) bore, Cast Steel body, PN63, IS 780",Each,Valves,CIL Plant-3
+CIL-INV-00021,ROOF BOLT 1.8M,"Resin anchored, mining grade",Each,Unique/Sector-specific,CIL Plant-1
+CIL-INV-00013,BEARING DGBB 6205,"6205, ID 25mm, OD 52mm, Width 15mm, single row",Each,Bearings,CIL Plant-2
+CIL-INV-00002,NUT HEX M12 SS304,"M12, Stainless Steel Gr.304, IS 1364",Each,Fasteners,CIL Plant-1
+CIL-INV-00008,PIPE SMLS STEEL 100MM NB,"100mm NB, Sch 40, Carbon Steel, ASTM A106 Gr.B",Meter,Pipes,CIL Plant-1
+CIL-INV-00003,WASHER FLAT M12 SS304,"M12, Stainless Steel Gr.304, IS 2016",Each,Fasteners,CIL Plant-3
+CIL-INV-00016,GASKET RUBBER 2 INCH,"2"" (50mm), EPDM rubber, PN16 flange",Each,Gaskets,CIL Plant-2
+CIL-INV-00010,PIPE HDPE 63MM,"63mm OD, PN10, HDPE PE100, IS 4984",Meter,Pipes,CIL Plant-2
+CIL-INV-00020,LONGWALL SHEARER CUTTING PICK,Tungsten carbide tipped,Each,Unique/Sector-specific,CIL Plant-3
+CIL-INV-00022,CONTINUOUS MINER RANGING ARM,Heavy duty mining spare,Each,Unique/Sector-specific,CIL Plant-3
+CIL-INV-00005,VALVE GATE 4 INCH CAST IRON,"4"" (100mm) bore, Cast Iron body, PN16, IS 780",Each,Valves,CIL Plant-1
+CIL-INV-00011,CABLE XLPE PWR 3CX95SQMM,"3 Core x 95 sq.mm, Aluminium conductor, 1.1kV, XLPE insulated, IS 7098",Meter,Cables,CIL Plant-2
+CIL-INV-00014,BEARING SPH ROLLER 22218,"22218, ID 90mm, OD 160mm, Width 40mm",Each,Bearings,CIL Plant-3
+CIL-INV-00004,BOLT HEX M16*60 MS,"M16, 60mm length, Mild Steel, IS 1364",Each,Fasteners,CIL Plant-2
+CIL-INV-00019,CONVEYOR BELT 1200MM EP200,"Rubber, fabric ply EP200, fire resistant",Meter,Unique/Sector-specific,CIL Plant-3
+CIL-INV-00023,METHANE GAS DETECTOR,"Portable, intrinsically safe",Each,Unique/Sector-specific,CIL Plant-3
+CIL-INV-00017,PUMP CENTRIFUGAL 50*32-160,"50x32-160, 15kW, 2900 RPM, cast iron casing, end suction",Each,Pumps,CIL Plant-1
+CIL-INV-00009,PIPE SMLS STEEL 150MM NB,"150mm NB, Sch 40, Carbon Steel, ASTM A106 Gr.B",Meter,Pipes,CIL Plant-1
+CIL-INV-00001,BOLT HEX M12*50 SS304,"M12, 50mm length, Stainless Steel Gr.304, IS 1364",Each,Fasteners,CIL Plant-3
+CIL-INV-00015,GASKET SWG 4 INCH,"4"" (100mm), SS304 winding with graphite filler, ANSI 150#",Each,Gaskets,CIL Plant-3
+CIL-INV-00006,VALVE BALL 2 INCH SS316,"2"" (50mm) bore, SS316 body, PN40, floating ball type",Each,Valves,CIL Plant-1

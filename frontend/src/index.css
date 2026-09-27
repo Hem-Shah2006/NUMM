@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #F7F9FC; /* Light mode */
+    --foreground: #020C21;
+    --primary: #1F3864; 
+    --primary-foreground: #FFFFFF;
+    --secondary: #2E75B6;
+    --success: #2E7D32;
+    --warning: #C55A11;
+    --danger: #C0392B;
+    --muted: #59627E;
+    --muted-foreground: #FFFFFF;
+    
+    /* ConSentinel specific */
+    --ink: #020C21;
+    --ink-soft: #0F182F;
+    --muted2: #4D5B77;
+    --frame: #E6EDF6;
+    --cta: #0F1B31;
+    --cta-knob: #384B64;
+    --meet-knob: #1A2B45;
+    --accent: #4A78B0;
+    --accent-foreground: #FFFFFF;
+    --track: #DDE4EE;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: #0F172A; /* Dark mode */
+    --foreground: #FFFFFF;
+    --primary: #2E75B6;
+    --primary-foreground: #FFFFFF;
+    --secondary: #1F3864;
+    
+    --ink: #FFFFFF;
+    --ink-soft: #E2E8F0;
+    --muted: #94A3B8;
+    --muted-foreground: #020C21;
+    --muted2: #CBD5E1;
+    --frame: #0F172A;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-gray-200 dark:border-gray-800;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-synthesis: none;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: geometricPrecision;
+  }
+  
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Glassmorphism utility classes */
+  .glass-panel {
+    @apply bg-white/40 dark:bg-black/40 backdrop-blur-[40px] border border-white/60 dark:border-white/20 shadow-lg;
+  }
+  
+  .glass-pill {
+    @apply bg-white/80 dark:bg-black/60 backdrop-blur-[40px] border border-white/80 dark:border-white/20 shadow-md rounded-full;
+  }
+}

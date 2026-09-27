@@ -1,0 +1,24 @@
+material_code,description,specification,uom,category,plant
+NTPC/MAT/000002,Hex Nut M12 SS304,"M12, Stainless Steel Gr.304, IS 1364",EA,Fasteners,NTPC Plant-1
+NTPC/MAT/000017,Centrifugal Pump 50x32-160,"50x32-160, 15kW, 2900 RPM, cast iron casing, end suction",EA,Pumps,NTPC Plant-1
+NTPC/MAT/000022,ESP Collecting Electrode Plate,Electrostatic precipitator spare,EA,Unique/Sector-specific,NTPC Plant-1
+NTPC/MAT/000011,XLPE Power Cable 3Cx95sqmm,"3 Core x 95 sq.mm, Aluminium conductor, 1.1kV, XLPE insulated, IS 7098",M,Cables,NTPC Plant-1
+NTPC/MAT/000001,Hex Head Bolt M12x50 SS304,"M12, 50mm length, Stainless Steel Gr.304, IS 1364",EA,Fasteners,NTPC Plant-1
+NTPC/MAT/000016,Rubber Gasket 2 inch,"2"" (50mm), EPDM rubber, PN16 flange",EA,Gaskets,NTPC Plant-3
+NTPC/MAT/000018,Induction Motor 15kW 4-Pole,"15kW, 4-Pole, 415V, 3-Phase, IE3, TEFC enclosure",EA,Motors,NTPC Plant-3
+NTPC/MAT/000003,Flat Washer M12 SS304,"M12, Stainless Steel Gr.304, IS 2016",EA,Fasteners,NTPC Plant-1
+NTPC/MAT/000004,Hex Head Bolt M16x60 MS,"M16, 60mm length, Mild Steel, IS 1364",EA,Fasteners,NTPC Plant-1
+NTPC/MAT/000006,Ball Valve 2 inch SS316,"2"" (50mm) bore, SS316 body, PN40, floating ball type",EA,Valves,NTPC Plant-3
+NTPC/MAT/000023,Generator Stator Bar,"11kV rated, custom wound",EA,Unique/Sector-specific,NTPC Plant-2
+NTPC/MAT/000014,Spherical Roller Bearing 22218,"22218, ID 90mm, OD 160mm, Width 40mm",EA,Bearings,NTPC Plant-3
+NTPC/MAT/000007,Gate Valve 6 inch Cast Steel,"6"" (150mm) bore, Cast Steel body, PN25, IS 780",EA,Valves,NTPC Plant-1
+NTPC/MAT/000010,HDPE Pipe 63mm,"63mm OD, PN10, HDPE PE100, IS 4984",M,Pipes,NTPC Plant-3
+NTPC/MAT/000012,Control Cable 4Cx2.5sqmm,"4 Core x 2.5 sq.mm, Copper conductor, 1.1kV, PVC insulated, IS 1554",M,Cables,NTPC Plant-1
+NTPC/MAT/000019,Boiler Tube SA210 Gr.A1,"51mm OD, 6mm thick, ASME SA210",M,Unique/Sector-specific,NTPC Plant-2
+NTPC/MAT/000008,Seamless Steel Pipe 100mm NB,"100mm NB, Sch 40, Carbon Steel, ASTM A106 Gr.B",M,Pipes,NTPC Plant-3
+NTPC/MAT/000020,Turbine Lube Oil ISO VG46,Steam turbine grade lubricant,Ltr,Unique/Sector-specific,NTPC Plant-3
+NTPC/MAT/000009,Seamless Steel Pipe 150mm NB,"150mm NB, Sch 80, Carbon Steel, ASTM A106 Gr.B",M,Pipes,NTPC Plant-3
+NTPC/MAT/000005,Gate Valve 4 inch Cast Iron,"4"" (100mm) bore, Cast Iron body, PN16, IS 780",EA,Valves,NTPC Plant-1
+NTPC/MAT/000015,Spiral Wound Gasket 4 inch,"4"" (100mm), SS304 winding with graphite filler, ANSI 150#",EA,Gaskets,NTPC Plant-2
+NTPC/MAT/000021,Coal Mill Grinding Roller,"Bowl mill spare, XL type",EA,Unique/Sector-specific,NTPC Plant-2
+NTPC/MAT/000013,Deep Groove Ball Bearing 6205,"6205, ID 25mm, OD 52mm, Width 15mm, single row",EA,Bearings,NTPC Plant-2

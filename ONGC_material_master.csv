@@ -1,0 +1,24 @@
+material_code,description,specification,uom,category,plant
+ONGC-MM-00019,WIRELINE SINKER BAR 3M,"Oilfield tool, 3m length, 89mm OD",NOS,Unique/Sector-specific,ONGC Plant-1
+ONGC-MM-00005,GATE VLV 4 INCH CAST IRON,"4"" (100mm) bore, Cast Iron body, PN16, IS 780",NOS,Valves,ONGC Plant-1
+ONGC-MM-00017,CENT PUMP 50X32-160,"50x32-160, 15kW, 2900 RPM, cast iron casing, end suction",NOS,Pumps,ONGC Plant-3
+ONGC-MM-00016,RUBBER GKT 2 INCH,"2"" (50mm), EPDM rubber, PN16 flange",NOS,Gaskets,ONGC Plant-2
+ONGC-MM-00002,HEX NUT M12 SS304,"M12, Stainless Steel Gr.304, IS 1364",NOS,Fasteners,ONGC Plant-2
+ONGC-MM-00010,HDPE PIPE 63MM,"63mm OD, PN10, HDPE PE100, IS 4984",MTR,Pipes,ONGC Plant-1
+ONGC-MM-00003,FLAT WASHER M12 SS304,"M12, Stainless Steel Gr.304, IS 2016",NOS,Fasteners,ONGC Plant-3
+ONGC-MM-00007,GATE VLV 6 INCH CAST STEEL,"6"" (150mm) bore, Cast Steel body, PN25, IS 780",NOS,Valves,ONGC Plant-3
+ONGC-MM-00014,SPH ROLLER BRG 22218,"22218, ID 90mm, OD 160mm, Width 40mm",NOS,Bearings,ONGC Plant-1
+ONGC-MM-00012,CTRL CABLE 4CX2.5SQMM,"4 Core x 2.5 sq.mm, Copper conductor, 1.1kV, PVC insulated, IS 1554",MTR,Cables,ONGC Plant-1
+ONGC-MM-00004,HEX HD BOLT M16X60 MS,"M16, 60mm length, Mild Steel, IS 1364",NOS,Fasteners,ONGC Plant-3
+ONGC-MM-00001,HEX HD BOLT M12X50 SS304,"M12, 50mm length, Stainless Steel Gr.304, IS 1364",NOS,Fasteners,ONGC Plant-3
+ONGC-MM-00022,WELLHEAD CASING HANGER 9-5/8IN,"API spec, 9-5/8 inch",NOS,Unique/Sector-specific,ONGC Plant-2
+ONGC-MM-00020,CHRISTMAS TREE VALVE ASSEMBLY,"API 6A, 5000 PSI rating",NOS,Unique/Sector-specific,ONGC Plant-1
+ONGC-MM-00011,XLPE PWR CABLE 3CX95SQMM,"3 Core x 95 sq.mm, Aluminium conductor, 1.1kV, XLPE insulated, IS 7098",MTR,Cables,ONGC Plant-2
+ONGC-MM-00021,DRILLING MUD ADDITIVE - BARITE,"API 13A grade, bulk",KG,Unique/Sector-specific,ONGC Plant-1
+ONGC-MM-00009,SMLS STEEL PIPE 150MM NB,"150mm NB, Sch 80, Carbon Steel, ASTM A106 Gr.B",MTR,Pipes,ONGC Plant-2
+ONGC-MM-00013,DGBB 6205,"6205, ID 25mm, OD 52mm, Width 15mm, single row",NOS,Bearings,ONGC Plant-2
+ONGC-MM-00015,SWG 4 INCH,"4"" (100mm), SS304 winding with graphite filler, ANSI 150#",NOS,Gaskets,ONGC Plant-1
+ONGC-MM-00023,CORROSION INHIBITOR CHEMICAL,For pipeline internal coating,Ltr,Unique/Sector-specific,ONGC Plant-2
+ONGC-MM-00008,SMLS STEEL PIPE 100MM NB,"100mm NB, Sch 40, Carbon Steel, ASTM A106 Gr.B",MTR,Pipes,ONGC Plant-3
+ONGC-MM-00018,IND MOTOR 15KW 4-POLE,"15kW, 4-Pole, 415V, 3-Phase, IE3, TEFC enclosure",NOS,Motors,ONGC Plant-1
+ONGC-MM-00006,BALL VLV 2 INCH SS316,"2"" (50mm) bore, SS316 body, PN40, floating ball type",NOS,Valves,ONGC Plant-1

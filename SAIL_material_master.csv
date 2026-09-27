@@ -1,0 +1,24 @@
+material_code,description,specification,uom,category,plant
+SAIL.STK.000004,Hex Head Bolt M16 x 60 Mild Steel,"M16, 60mm length, Mild Steel, IS 1364",PCS,Fasteners,SAIL Plant-3
+SAIL.STK.000008,Seamless Steel Pipe 100mm NB,"100mm NB, Sch 40, Carbon Steel, ASTM A106 Gr.B",METER,Pipes,SAIL Plant-2
+SAIL.STK.000010,HDPE Pipe 63mm,"63mm OD, PN10, HDPE PE100, IS 4984",METER,Pipes,SAIL Plant-2
+SAIL.STK.000012,Control Cable 4Cx2.5sqmm,"4 Core x 2.5 sq.mm, Copper conductor, 1.1kV, PVC insulated, IS 1554",METER,Cables,SAIL Plant-2
+SAIL.STK.000019,Blast Furnace Tuyere,"Copper alloy, water cooled",PCS,Unique/Sector-specific,SAIL Plant-2
+SAIL.STK.000022,Sinter Plant Grate Bar,Heat resistant cast alloy,PCS,Unique/Sector-specific,SAIL Plant-2
+SAIL.STK.000007,Gate Valve 6 inch Cast Steel,"6"" (150mm) bore, Cast Steel body, PN63, IS 780",PCS,Valves,SAIL Plant-3
+SAIL.STK.000023,Continuous Casting Mould Plate,"Copper, water cooled",PCS,Unique/Sector-specific,SAIL Plant-3
+SAIL.STK.000017,Centrifugal Pump 50 x 32-160,"50x32-160, 15kW, 2900 RPM, cast iron casing, end suction",PCS,Pumps,SAIL Plant-3
+SAIL.STK.000002,Hex Nut M12 Stainless Steel Grade 304,"M12, Stainless Steel Gr.304, IS 1364",PCS,Fasteners,SAIL Plant-1
+SAIL.STK.000011,XLPE Power Cable 3Cx95sqmm,"3 Core x 95 sq.mm, Aluminium conductor, 1.1kV, XLPE insulated, IS 7098",METER,Cables,SAIL Plant-1
+SAIL.STK.000001,Hex Head Bolt M12 x 50 Stainless Steel Grade 304,"M12, 50mm length, Stainless Steel Gr.304, IS 1364",PCS,Fasteners,SAIL Plant-1
+SAIL.STK.000016,Rubber Gasket 2 inch,"2"" (50mm), EPDM rubber, PN16 flange",PCS,Gaskets,SAIL Plant-3
+SAIL.STK.000005,Gate Valve 4 inch Cast Iron,"4"" (100mm) bore, Cast Iron body, PN16, IS 780",PCS,Valves,SAIL Plant-1
+SAIL.STK.000009,Seamless Steel Pipe 150mm NB,"150mm NB, Sch 40, Carbon Steel, ASTM A106 Gr.B",METER,Pipes,SAIL Plant-2
+SAIL.STK.000015,Spiral Wound Gasket 4 inch,"4"" (100mm), SS304 winding with graphite filler, ANSI 150#",PCS,Gaskets,SAIL Plant-1
+SAIL.STK.000018,Induction Motor 15kW 4-Pole,"15kW, 4-Pole, 415V, 3-Phase, IE3, TEFC enclosure",PCS,Motors,SAIL Plant-1
+SAIL.STK.000013,Deep Groove Ball Bearing 6205,"6205, ID 25mm, OD 52mm, Width 15mm, single row",PCS,Bearings,SAIL Plant-3
+SAIL.STK.000003,Flat Washer M12 Stainless Steel Grade 304,"M12, Stainless Steel Gr.304, IS 2016",PCS,Fasteners,SAIL Plant-3
+SAIL.STK.000020,Coke Oven Door Refractory Brick,"High alumina, 230x114x65mm",PCS,Unique/Sector-specific,SAIL Plant-1
+SAIL.STK.000014,Spherical Roller Bearing 22218,"22218, ID 90mm, OD 160mm, Width 40mm",PCS,Bearings,SAIL Plant-2
+SAIL.STK.000006,Ball Valve 2 inch Stainless Steel Grade 316,"2"" (50mm) bore, SS316 body, PN40, floating ball type",PCS,Valves,SAIL Plant-3
+SAIL.STK.000021,Rolling Mill Work Roll,"Forged steel, hardened surface",PCS,Unique/Sector-specific,SAIL Plant-3
