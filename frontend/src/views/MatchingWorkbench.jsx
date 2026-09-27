@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Play, Sparkles, AlertTriangle, CheckCircle2, XCircle, Edit3, ArrowRight, Filter, SortDesc, X, Check, Eye } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
+import { API_BASE } from '../config';
 
 export default function MatchingWorkbench() {
   const [matches, setMatches] = useState([]);
@@ -32,7 +33,7 @@ export default function MatchingWorkbench() {
 
   const fetchMatches = () => {
     setLoading(true);
-    fetch('http://127.0.0.1:8000/matches')
+    fetch(`${API_BASE}/matches`)
       .then(res => res.json())
       .then(data => {
         setMatches(Array.isArray(data) ? data : []);
@@ -61,7 +62,7 @@ export default function MatchingWorkbench() {
     }, 700);
 
     setTimeout(() => {
-      fetch('http://127.0.0.1:8000/match/run', { method: 'POST' })
+      fetch(`${API_BASE}/match/run`, { method: 'POST' })
         .then(() => fetchMatches())
         .finally(() => {
           setIsMatchingRunning(false);
@@ -71,7 +72,7 @@ export default function MatchingWorkbench() {
 
   const handleApprove = (match, customDesc = null) => {
     const descToUse = customDesc || match.merged_desc || match.source_desc;
-    fetch(`http://127.0.0.1:8000/matches/${match.id}/approve`, {
+    fetch(`${API_BASE}/matches/${match.id}/approve`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -87,7 +88,7 @@ export default function MatchingWorkbench() {
   };
 
   const handleReject = (match) => {
-    fetch(`http://127.0.0.1:8000/matches/${match.id}/reject`, {
+    fetch(`${API_BASE}/matches/${match.id}/reject`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

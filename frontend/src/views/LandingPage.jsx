@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowRight, Database, Cpu, ShieldCheck, Layers, Sparkles, CheckCircle2, TrendingUp, Building2, Eye, Server, RefreshCw } from 'lucide-react';
+import { API_BASE } from '../config';
 
 export default function LandingPage() {
   const navigate = useNavigate();
@@ -13,7 +14,7 @@ export default function LandingPage() {
   });
 
   useEffect(() => {
-    fetch('http://127.0.0.1:8000/stats')
+    fetch(`${API_BASE}/stats`)
       .then(res => res.json())
       .then(data => {
         setStats({

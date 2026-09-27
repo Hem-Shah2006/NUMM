@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Download, Search, Filter, ChevronDown, ChevronUp, Database, CheckCircle2, Layers } from 'lucide-react';
+import { API_BASE } from '../config';
 
 export default function Repository() {
   const [repository, setRepository] = useState([]);
@@ -11,7 +12,7 @@ export default function Repository() {
 
   const fetchRepo = () => {
     setLoading(true);
-    fetch('http://127.0.0.1:8000/repository')
+    fetch(`${API_BASE}/repository`)
       .then(res => res.json())
       .then(data => {
         setRepository(Array.isArray(data) ? data : []);

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { History, CheckCircle2, XCircle, Sparkles, Filter, Search, ChevronDown, ChevronUp, User, Shield } from 'lucide-react';
+import { API_BASE } from '../config';
 
 export default function AuditTrail() {
   const [audits, setAudits] = useState([]);
@@ -11,7 +12,7 @@ export default function AuditTrail() {
 
   const fetchAudit = () => {
     setLoading(true);
-    fetch('http://127.0.0.1:8000/audit')
+    fetch(`${API_BASE}/audit`)
       .then(res => res.json())
       .then(data => {
         setAudits(Array.isArray(data) ? data : []);

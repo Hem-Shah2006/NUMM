@@ -18,7 +18,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-DB_PATH = os.path.join(os.path.dirname(__file__), "numm.db")
+if os.environ.get("VERCEL"):
+    DB_PATH = "/tmp/numm.db"
+else:
+    DB_PATH = os.path.join(os.path.dirname(__file__), "numm.db")
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def get_db():

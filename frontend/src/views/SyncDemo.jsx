@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { RefreshCw, Server, CheckCircle2, Send, Database, ArrowRight, Code } from 'lucide-react';
+import { API_BASE } from '../config';
 
 export default function SyncDemo() {
   const [repository, setRepository] = useState([]);
@@ -20,7 +21,7 @@ export default function SyncDemo() {
   ];
 
   useEffect(() => {
-    fetch('http://127.0.0.1:8000/repository')
+    fetch(`${API_BASE}/repository`)
       .then(res => res.json())
       .then(data => {
         const arr = Array.isArray(data) ? data : [];
@@ -47,7 +48,7 @@ export default function SyncDemo() {
     }, 800);
 
     setTimeout(() => {
-      fetch('http://127.0.0.1:8000/sync/push', {
+      fetch(`${API_BASE}/sync/push`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

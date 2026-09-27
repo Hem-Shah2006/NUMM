@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "cd frontend && npm run dev",
     "backend": "cd backend && python engine.py",
+    "build": "cd frontend && npm install && npm run build",
     "start": "echo 'To start both, please open two terminals: one for npm run dev, and one for npm run backend'"
   }
 }

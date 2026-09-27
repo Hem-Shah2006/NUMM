@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import confetti from 'canvas-confetti';
 import { Check, X, Edit3, AlertTriangle, ArrowRight, PartyPopper, CheckCircle, RefreshCw } from 'lucide-react';
+import { API_BASE } from '../config';
 
 export default function ReviewQueue() {
   const navigate = useNavigate();
@@ -19,7 +20,7 @@ export default function ReviewQueue() {
 
   const fetchQueue = () => {
     setLoading(true);
-    fetch('http://127.0.0.1:8000/matches')
+    fetch(`${API_BASE}/matches`)
       .then(res => res.json())
       .then(data => {
         const pending = Array.isArray(data) ? data.filter(m => m.status === 'Pending') : [];
@@ -55,7 +56,7 @@ export default function ReviewQueue() {
     if (!currentMatch) return;
     const descToUse = customDesc || currentMatch.merged_desc || currentMatch.source_desc;
 
-    fetch(`http://127.0.0.1:8000/matches/${currentMatch.id}/approve`, {
+    fetch(`${API_BASE}/matches/${currentMatch.id}/approve`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -78,7 +79,7 @@ export default function ReviewQueue() {
 
   const handleReject = () => {
     if (!currentMatch) return;
-    fetch(`http://127.0.0.1:8000/matches/${currentMatch.id}/reject`, {
+    fetch(`${API_BASE}/matches/${currentMatch.id}/reject`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ reviewer: "Senior Material Auditor (Govt. of India)" })

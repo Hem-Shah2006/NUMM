@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import { Database, Copy, CheckSquare, IndianRupee, ArrowUpRight, Info, ChevronRight, RefreshCw } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line, CartesianGrid, Legend } from 'recharts';
 
+import { API_BASE } from '../config';
+
 export default function Dashboard() {
   const navigate = useNavigate();
   const [stats, setStats] = useState({
@@ -24,7 +26,7 @@ export default function Dashboard() {
   const [showFormulaTooltip, setShowFormulaTooltip] = useState(false);
 
   useEffect(() => {
-    fetch('http://127.0.0.1:8000/stats')
+    fetch(`${API_BASE}/stats`)
       .then(res => res.json())
       .then(data => {
         setStats(data);
